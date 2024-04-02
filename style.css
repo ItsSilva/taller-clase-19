@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img.imagen{
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0.5rem;
+    transition: transform 0.5s;
+}
+img.imagen:hover{
+    transform: scale(1.1);
+}	
